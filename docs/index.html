@@ -145,9 +145,13 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview</li>
 
 <li>$:/config/Toolbar/ButtonClass</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close</li>
 
 <li>$:/core</li>
 
@@ -168,6 +172,8 @@ Error message and password prompt
 <li>$:/palette</li>
 
 <li>$:/palettes/DarkPhotos</li>
+
+<li>$:/palettes/Vanilla</li>
 
 <li>$:/plugins/tiddlywiki/cecily</li>
 
@@ -783,13 +789,13 @@ Error message and password prompt
 
 <li>Conta e senha para publicação - 2016</li>
 
-<li>Conteúdo</li>
-
 <li>Continuação do relatório para a 2a Avaliação</li>
 
 <li>Cronograma das aulas - Turmas de 2015</li>
 
 <li>Cronograma das aulas - Turmas de 2016</li>
+
+<li>Cronograma das aulas - Turmas de 2017</li>
 
 <li>Decodificação: Softwares disponíveis no mercado</li>
 
@@ -814,6 +820,8 @@ Error message and password prompt
 <li>Diário das aulas e atividades ministradas - Turmas de 2015</li>
 
 <li>Diário das aulas e atividades ministradas - Turmas de 2016</li>
+
+<li>Diário das aulas e atividades ministradas - Turmas de 2017</li>
 
 <li>Diferença entre Relatório de Projeto e Método de projeto</li>
 
@@ -934,6 +942,8 @@ Error message and password prompt
 <li>Material de 2016</li>
 
 <li>Melhorias: Como podemos descreve-las</li>
+
+<li>Menu</li>
 
 <li>Método FAST para montagem do diagrama de funções</li>
 
@@ -1199,8 +1209,8 @@ Error message and password prompt
 <div created="20160901223008282" creator="Dioclecio" modified="20160901223008282" modifier="Dioclecio" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
-<div created="20161207135051349" creator="Dioclecio" modified="20170111215208263" modifier="Dioclecio" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
-<pre>hide</pre>
+<div created="20161207135051349" creator="Dioclecio" modified="20170821230043970" modifier="Dioclecio" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<pre>show</pre>
 </div>
 <div created="20161207135025494" creator="Dioclecio" modified="20161216222725185" modifier="Dioclecio" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-image">
 <pre>hide</pre>
@@ -1208,11 +1218,17 @@ Error message and password prompt
 <div created="20160901222950946" creator="Dioclecio" modified="20161216222720361" modifier="Dioclecio" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
 <pre>show</pre>
 </div>
-<div created="20160912144207420" creator="Dioclecio" modified="20160912144207420" modifier="Dioclecio" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
-<pre>show</pre>
+<div created="20170821230226085" creator="Dioclecio" modified="20170821230226085" modifier="Dioclecio" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<pre>hide</pre>
 </div>
-<div created="20160831142011879" modified="20160831142011879" title="$:/config/Toolbar/ButtonClass">
-<pre>tc-btn-boxed</pre>
+<div created="20160912144207420" creator="Dioclecio" modified="20170821230230922" modifier="Dioclecio" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
+<pre>hide</pre>
+</div>
+<div created="20160831142011879" creator="Dioclecio" modified="20170821230304322" modifier="Dioclecio" title="$:/config/Toolbar/ButtonClass">
+<pre>tc-btn-invisible</pre>
+</div>
+<div created="20170821230213688" creator="Dioclecio" modified="20170821230216387" modifier="Dioclecio" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close">
+<pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.13">
 <pre>{
@@ -12213,7 +12229,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20160831141800914" creator="Dioclecio" modified="20160908182726490" modifier="Dioclecio" title="$:/palette">
+<div created="20160831141800914" creator="Dioclecio" modified="20170821230833126" modifier="Dioclecio" title="$:/palette">
 <pre>$:/palettes/DarkPhotos</pre>
 </div>
 <div created="20150402111612188" creator="Dioclecio" description="Good with dark photo backgrounds" modified="20160908182746330" modifier="Dioclecio" name="DarkPhotos" tags="$:/tags/Palette" title="$:/palettes/DarkPhotos" type="application/x-tiddler-dictionary">
@@ -12321,6 +12337,111 @@ toolbar-done-button:
 untagged-background: #999999
 very-muted-foreground: #888888</pre>
 </div>
+<div created="20170821230817785" creator="Dioclecio" description="Pale and unobtrusive" modified="20170821230817785" modifier="Dioclecio" name="Vanilla" tags="$:/tags/Palette" title="$:/palettes/Vanilla" type="application/x-tiddler-dictionary">
+<pre>alert-background: #ffe476
+alert-border: #b99e2f
+alert-highlight: #881122
+alert-muted-foreground: #b99e2f
+background: #ffffff
+blockquote-bar: &lt;&lt;colour muted-foreground&gt;&gt;
+button-background: 
+button-foreground: 
+button-border: 
+code-background: #f7f7f9
+code-border: #e1e1e8
+code-foreground: #dd1144
+dirty-indicator: #ff0000
+download-background: #34c734
+download-foreground: &lt;&lt;colour background&gt;&gt;
+dragger-background: &lt;&lt;colour foreground&gt;&gt;
+dragger-foreground: &lt;&lt;colour background&gt;&gt;
+dropdown-background: &lt;&lt;colour background&gt;&gt;
+dropdown-border: &lt;&lt;colour muted-foreground&gt;&gt;
+dropdown-tab-background-selected: #fff
+dropdown-tab-background: #ececec
+dropzone-background: rgba(0,200,0,0.7)
+external-link-background-hover: inherit
+external-link-background-visited: inherit
+external-link-background: inherit
+external-link-foreground-hover: inherit
+external-link-foreground-visited: #0000aa
+external-link-foreground: #0000ee
+foreground: #333333
+message-background: #ecf2ff
+message-border: #cfd6e6
+message-foreground: #547599
+modal-backdrop: &lt;&lt;colour foreground&gt;&gt;
+modal-background: &lt;&lt;colour background&gt;&gt;
+modal-border: #999999
+modal-footer-background: #f5f5f5
+modal-footer-border: #dddddd
+modal-header-border: #eeeeee
+muted-foreground: #bbb
+notification-background: #ffffdd
+notification-border: #999999
+page-background: #003399
+pre-background: #f5f5f5
+pre-border: #cccccc
+primary: #5778d8
+sidebar-button-foreground: &lt;&lt;colour foreground&gt;&gt;
+sidebar-controls-foreground-hover: #000000
+sidebar-controls-foreground: #aaaaaa
+sidebar-foreground-shadow: rgba(255,255,255, 0.8)
+sidebar-foreground: #acacac
+sidebar-muted-foreground-hover: #444444
+sidebar-muted-foreground: #c0c0c0
+sidebar-tab-background-selected: #f4f4f4
+sidebar-tab-background: #e0e0e0
+sidebar-tab-border-selected: &lt;&lt;colour tab-border-selected&gt;&gt;
+sidebar-tab-border: &lt;&lt;colour tab-border&gt;&gt;
+sidebar-tab-divider: #e4e4e4
+sidebar-tab-foreground-selected: 
+sidebar-tab-foreground: &lt;&lt;colour tab-foreground&gt;&gt;
+sidebar-tiddler-link-foreground-hover: #444444
+sidebar-tiddler-link-foreground: #999999
+site-title-foreground: &lt;&lt;colour tiddler-title-foreground&gt;&gt;
+static-alert-foreground: #aaaaaa
+tab-background-selected: #ffffff
+tab-background: #d8d8d8
+tab-border-selected: #d8d8d8
+tab-border: #cccccc
+tab-divider: #d8d8d8
+tab-foreground-selected: &lt;&lt;colour tab-foreground&gt;&gt;
+tab-foreground: #666666
+table-border: #dddddd
+table-footer-background: #a8a8a8
+table-header-background: #f0f0f0
+tag-background: #ec6
+tag-foreground: #ffffff
+tiddler-background: &lt;&lt;colour background&gt;&gt;
+tiddler-border: &lt;&lt;colour background&gt;&gt;
+tiddler-controls-foreground-hover: #888888
+tiddler-controls-foreground-selected: #444444
+tiddler-controls-foreground: #cccccc
+tiddler-editor-background: #f8f8f8
+tiddler-editor-border-image: #ffffff
+tiddler-editor-border: #cccccc
+tiddler-editor-fields-even: #e0e8e0
+tiddler-editor-fields-odd: #f0f4f0
+tiddler-info-background: #f8f8f8
+tiddler-info-border: #dddddd
+tiddler-info-tab-background: #f8f8f8
+tiddler-link-background: &lt;&lt;colour background&gt;&gt;
+tiddler-link-foreground: &lt;&lt;colour primary&gt;&gt;
+tiddler-subtitle-foreground: #c0c0c0
+tiddler-title-foreground: #182955
+toolbar-new-button: 
+toolbar-options-button: 
+toolbar-save-button: 
+toolbar-info-button: 
+toolbar-edit-button: 
+toolbar-close-button: 
+toolbar-delete-button: 
+toolbar-cancel-button: 
+toolbar-done-button: 
+untagged-background: #999999
+very-muted-foreground: #888888</pre>
+</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="Zoomable storyview (Cecily)" list="readme" plugin-type="plugin" title="$:/plugins/tiddlywiki/cecily" type="application/json" version="5.1.13">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -12369,10 +12490,10 @@ very-muted-foreground: #888888</pre>
 <div created="20170129141124591" creator="Dioclecio" modified="20170129141125797" modifier="Dioclecio" title="$:/state/tab--1837216432">
 <pre>$:/core/ui/TiddlerInfo/Fields</pre>
 </div>
-<div created="20160831141752746" creator="Dioclecio" modified="20170131193745008" modifier="Dioclecio" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/StoryView</pre>
+<div created="20160831141752746" creator="Dioclecio" modified="20170821230245805" modifier="Dioclecio" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div created="20160908182524266" creator="Dioclecio" modified="20170131193748777" modifier="Dioclecio" title="$:/state/tab--2112689675">
+<div created="20160908182524266" creator="Dioclecio" modified="20170821230101832" modifier="Dioclecio" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Basics</pre>
 </div>
 <div created="20170129143332330" creator="Dioclecio" modified="20170129143332331" modifier="Dioclecio" title="$:/state/tab--2113814295">
@@ -12399,8 +12520,8 @@ very-muted-foreground: #888888</pre>
 <div created="20170129140752158" creator="Dioclecio" modified="20170129140752158" modifier="Dioclecio" title="$:/state/tab-1405744587">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
 </div>
-<div created="20160831141749956" creator="Dioclecio" modified="20170131193746066" modifier="Dioclecio" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20160831141749956" creator="Dioclecio" modified="20170821230703308" modifier="Dioclecio" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20170129143132153" creator="Dioclecio" modified="20170129143132153" modifier="Dioclecio" title="$:/state/tab-2061994188">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
@@ -12411,14 +12532,14 @@ very-muted-foreground: #888888</pre>
 <div created="20160927232840736" creator="Dioclecio" modified="20170201134901914" modifier="Dioclecio" title="$:/state/tab/moresidebar-401116514">
 <pre>$:/core/ui/MoreSideBar/Missing</pre>
 </div>
-<div created="20160831141940773" creator="Dioclecio" modified="20170201195916305" modifier="Dioclecio" title="$:/state/tab/sidebar--1835078512">
-<pre>Conteúdo</pre>
+<div created="20160831141940773" creator="Dioclecio" modified="20170822013321701" modifier="Dioclecio" title="$:/state/tab/sidebar--1835078512">
+<pre>$:/core/ui/SideBar/Open</pre>
 </div>
 <div created="20161019165221604" creator="Dioclecio" modified="20161019165221604" modifier="Dioclecio" title="$:/state/tab/sidebar--2063883831">
 <pre>Conteúdo</pre>
 </div>
-<div created="20160831142237102" creator="Dioclecio" modified="20170111215211338" modifier="Dioclecio" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
+<div created="20160831142237102" creator="Dioclecio" modified="20170821230235926" modifier="Dioclecio" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
 </div>
 <div created="20170130132012907" creator="Dioclecio" modified="20170130132017338" modifier="Dioclecio" title="$:/state/tag-manager/Análise setorial">
 <pre>closed</pre>
@@ -12432,7 +12553,7 @@ very-muted-foreground: #888888</pre>
 <div created="20160831142139388" creator="D" modified="20160831142140041" modifier="Diocleci" title="$:/status/UserName">
 <pre>Dioclecio</pre>
 </div>
-<div list="[[2017.02.15 - Lançamento das notas dos exames]] Início [[Avaliação Final - 2016]] [[Micro Blog]]" title="$:/StoryList">
+<div list="Início [[Micro Blog]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20160908154912753" creator="Dioclecio" modified="20161019165324705" modifier="Dioclecio" title="$:/temp/advancedsearch">
@@ -12788,14 +12909,14 @@ This plugin contains tools to help slice up long texts into individual tiddlers.
 <div created="20160908182541508" creator="Dioclecio" modified="20160908182541593" modifier="Dioclecio" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre>ce</pre>
 </div>
-<div created="20160923003925449" creator="Dioclecio" modified="20170216001139997" modifier="Dioclecio" title="$:/temp/search">
+<div created="20160923003925449" creator="Dioclecio" modified="20170821230646083" modifier="Dioclecio" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20160908182544128" creator="Dioclecio" modified="20160908182544128" modifier="Dioclecio" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/http://tiddlywiki.com/library/v5.1.13/index.html" url="http://tiddlywiki.com/library/v5.1.13/index.html">
 <pre>loaded</pre>
 </div>
-<div created="20160831141957153" creator="Dioclecio" modified="20170112204239950" modifier="Dioclecio" title="$:/theme">
-<pre>$:/themes/tiddlywiki/centralised</pre>
+<div created="20160831141957153" creator="Dioclecio" modified="20170821230115883" modifier="Dioclecio" title="$:/theme">
+<pre>$:/themes/tiddlywiki/vanilla</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Centralises the story river" name="Centralised" plugin-type="theme" title="$:/themes/tiddlywiki/centralised" type="application/json" version="5.1.13">
 <pre>{
@@ -12928,7 +13049,7 @@ This plugin contains tools to help slice up long texts into individual tiddlers.
     }
 }</pre>
 </div>
-<div created="20160831141756457" creator="Dioclecio" modified="20160920232140616" modifier="Dioclecio" title="$:/view">
+<div created="20160831141756457" creator="Dioclecio" modified="20170821230110912" modifier="Dioclecio" title="$:/view">
 <pre>classic</pre>
 </div>
 <div created="20161006153932554" creator="Dioclecio" modified="20161006154813607" modifier="Dioclecio" title="1. Identifique as informações necessárias">
@@ -16177,19 +16298,6 @@ Após esta aula o aluno deverá:
 <div created="20170130132544274" creator="Dioclecio" modified="20170130132606528" modifier="Dioclecio" tags="" title="Conta e senha para publicação - 2016">
 <pre>[img[img/ContaSenha.png]]</pre>
 </div>
-<div created="20161019164121082" creator="Dioclecio" modified="20170129130500397" modifier="Dioclecio" tags="$:/tags/SideBar" title="Conteúdo">
-<pre>[[Apresentação da disciplina]]
-
-[[Conteúdo da disciplina|Programa da disciplina]]
-
-[[Cronograma|Cronograma das aulas - Turmas de 2016]]
-
-[[Diário das aulas|Diário das aulas e atividades ministradas - Turmas de 2016]]
-
-[[Avaliações]]
-
-[[Contato com o professor|Dioclecio]]</pre>
-</div>
 <div created="20170111144345428" creator="Dioclecio" modified="20170207215403472" modifier="Dioclecio" title="Continuação do relatório para a 2a Avaliação">
 <pre>----
 
@@ -16353,6 +16461,13 @@ Este é o calendário após a greve
 
 !!Cronograma antes da greve
 [img[img/cronograma-2016.png]]</pre>
+</div>
+<div created="20170822012656217" creator="Dioclecio" modified="20170822012821987" modifier="Dioclecio" title="Cronograma das aulas - Turmas de 2017">
+<pre>O cronograma abaixo apresenta uma sugestão sobre como os assuntos poderão ser ministrados ao longo da disciplina.
+
+[img[img/2017Cronograma.png]]
+
+As antecipação serão ministradas para compensar os dias que estão entre feriados e finais de semana. </pre>
 </div>
 <div created="20160921014401128" creator="Dioclecio" modified="20160928011423729" modifier="Dioclecio" title="Decodificação: Softwares disponíveis no mercado">
 <pre>No mercado existem alguns softwares bastante populares.
@@ -16522,6 +16637,17 @@ Esta aula propões o aprendizado dos seguintes conceitos:
 <pre>Acompanhe o andamento das aulas através deste diário de classe.
 
 &lt;$list filter=&quot;[tag[Diário das aulas]tag[2016]!sort[title]]&quot;&gt;
+
+!!  &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt; 
+
+&lt;$transclude/&gt;
+
+&lt;/$list&gt;</pre>
+</div>
+<div created="20170822013331709" creator="Dioclecio" modified="20170822013335280" modifier="Dioclecio" title="Diário das aulas e atividades ministradas - Turmas de 2017">
+<pre>Acompanhe o andamento das aulas através deste diário de classe.
+
+&lt;$list filter=&quot;[tag[Diário das aulas]tag[2017]!sort[title]]&quot;&gt;
 
 !!  &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt; 
 
@@ -17224,7 +17350,7 @@ Exemplo de gráfico de preço x valor [[(BAXTER, 2000)|Bibliografia]]&lt;br&gt;
 [[O que podemos fazer com este gráfico?]]
 </pre>
 </div>
-<div created="20160831142426934" creator="Dioclecio" modified="20170213190428025" modifier="Dioclecio" title="Início">
+<div created="20160831142426934" creator="Dioclecio" modified="20170822003859512" modifier="Dioclecio" title="Início">
 <pre>[img[img/Apresentacao01.png]]
 
 Este site é dedicado ao material da disciplina de Metodologia de Projetos 2 do Curso de Design da Universidade Estadual de Maringá.
@@ -17234,15 +17360,15 @@ A disciplina vem sendo ministrada aos alunos do 1o ano do curso.
 Descubra mais sobre a disciplina e os exercícios preparados para reforçar os assuntos passados ao longo do semestre.
 
 !! Apresentação da disciplina
-: [[Conheça a disciplina|Apresentação da disciplina]]
+: [[Conheça a disciplina|Apresentação da disciplina - 2017]]
 
 !! Conteúdo das aulas
 &lt;&lt;&lt;
  [[Programa da disciplina]] - Veja o conteúdo das aulas ministradas
 
-[[Cronograma das aulas|Cronograma das aulas - Turmas de 2016]] - Acompanhe os dias das aulas ministradas
+[[Cronograma das aulas|Cronograma das aulas - Turmas de 2017]] - Acompanhe os dias das aulas ministradas
 
- [[Diário das aulas e atividades ministradas|Diário das aulas e atividades ministradas - Turmas de 2016]]
+ [[Diário das aulas e atividades ministradas|Diário das aulas e atividades ministradas - Turmas de 2017]]
 
 &lt;&lt;&lt;
 
@@ -17250,8 +17376,6 @@ Descubra mais sobre a disciplina e os exercícios preparados para reforçar os a
 &lt;&lt;&lt;
 
 [[Dados importantes sobre as avaliações da disciplina|Avaliações]]
-
-[[Resultado da avaliação final|Avaliação Final - 2016]]
 
 &lt;&lt;&lt;
 
@@ -17637,6 +17761,19 @@ O quadro abaixo mostra um exemplo de como descrever essa comparação.
 [img[img/Aula13-005.png]]
 
 [[Exercício|Aula 13 - 01 Identificação das melhorias no produto]]</pre>
+</div>
+<div caption="Menu" created="20161019164121082" creator="Dioclecio" list-before="$:/core/ui/SideBar/Open" modified="20170821230643326" modifier="Dioclecio" tags="$:/tags/SideBar" title="Menu">
+<pre>[[Apresentação da disciplina]]
+
+[[Conteúdo da disciplina|Programa da disciplina]]
+
+[[Cronograma|Cronograma das aulas - Turmas de 2016]]
+
+[[Diário das aulas|Diário das aulas e atividades ministradas - Turmas de 2016]]
+
+[[Avaliações]]
+
+[[Contato com o professor|Dioclecio]]</pre>
 </div>
 <div created="20160910150332436" creator="Dioclecio" modified="20160910150445529" modifier="Dioclecio" title="Método FAST para montagem do diagrama de funções">
 <pre>Todo produto apresenta função principal ou função global. à partir desta função é possível decompor em subfunções que satisfaçam a função principal. Para decompor as funções, você poderá adotar o método FAST apresentado por [[Rozenfeld (2006)|Bibliografia]].
